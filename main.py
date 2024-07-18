@@ -138,7 +138,7 @@ def decimal_to_binary(decimal):
 
 
 # Test generating 2 pictures
-first_picture = decimal_to_binary(encode(0))
+first_picture = decimal_to_binary(encode(1))
 
 image = Image.new('RGB', (PIC_SIZE, PIC_SIZE))
 
@@ -147,9 +147,9 @@ for y in range(PIC_SIZE):
     for x in range(PIC_SIZE):
         image.putpixel((x, y), tuple(first_picture[y*PIC_SIZE+x]))
 
-image.save('first.png')
+image.save('encoding_1.png')
 
-first_picture = decimal_to_binary(encode(1))
+first_picture = decimal_to_binary(encode(2))
 
 # Create a new image with mode 'RGB' and size 64x64
 image = Image.new('RGB', (PIC_SIZE, PIC_SIZE))
@@ -159,7 +159,7 @@ for y in range(PIC_SIZE):
     for x in range(PIC_SIZE):
         image.putpixel((x, y), tuple(first_picture[y*PIC_SIZE+x]))
 
-image.save('second.png')
+image.save('encoding_2.png')
 
 
 # Generate and save 1000 images into images folder
