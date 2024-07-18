@@ -6,13 +6,13 @@ Decided to try and make it in python as it doesnt have a max int value.
 
 ### Examples
 
-Encoding the number 1 and desplaying the image gives us [this image](./encoded_1.png)
+Encoding the number 1 and desplaying the image gives us [this image](./encoding_1.png)
 
-![Image of the encoded number 1](./encoded_1.png)
+![Image of the encoded number 1](./encoding_1.png)
 
-Encoding the number 2 and desplaying the image gives us [this image](./encoded_2.png)
+Encoding the number 2 and desplaying the image gives us [this image](./encoding_2.png)
 
-![Image of the encoded number 2](./encoded_2.png)
+![Image of the encoded number 2](./encoding_2.png)
 
 Numbers from 0 to 999 have been generated inside [the images folder](/images).
 
